@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyValentinesDay</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 10px;
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        .grid-container img {
+            flex: auto;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .video {
+          height: 100%;
+          width: 100%;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <img src="images/cineteca.jpeg" alt="Imagen 1">
+        <img src="images/besito.jpeg" alt="Imagen 2">
+        <img src="images/musa.jpeg" alt="Imagen 3">
+        <img src="images/expiatorio.jpeg" alt="Imagen 4">
+        <iframe class="video" src="https://www.youtube.com/embed/_ScM9pKlCfo" frameborder="0" allowfullscreen></iframe>
+        <img src="images/parque_japones.jpeg" alt="Imagen 6">
+        <img src="images/cineteca2.jpeg" alt="Imagen 7">
+        <img src="images/ojos_quemaos.jpeg" alt="Imagen 8">
+        <img src="images/foto_prohibida.jpeg" alt="Imagen 9">
+    </div>
+</body>
+</html>
